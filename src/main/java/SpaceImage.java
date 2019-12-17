@@ -16,7 +16,7 @@ public class SpaceImage {
     public static void main(String[] args) throws Exception {
         SpaceImage si = new SpaceImage();
         String data = readFileAsString("C:\\Users\\diella.agyeman\\Desktop\\input.txt");
-        si.splitDataIntoLayers(data);
+        splitDataIntoLayers(data);
 
         System.out.println(numberOfZeros);
         System.out.println(onextwo);
